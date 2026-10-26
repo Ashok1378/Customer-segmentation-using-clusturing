@@ -1,0 +1,9 @@
+{
+  "selected_features": [
+    "CustomerID",
+    "Age",
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "fitted": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 10,
+    "avg_age": 40.8,
+    "avg_income": 80.6,
+    "avg_spending_score": 15.7,
+    "avg_purchase_frequency": 0.0,
+    "gender_distribution": {
+      "0": 6,
+      "1": 4
+    },
+    "feature_averages": {
+      "CustomerID": 20.0,
+      "Age": 40.8,
+      "Annual Income (k$)": 80.6,
+      "Spending Score (1-100)": 15.7
+    },
+    "label": "Conservative Spenders",
+    "characteristics": [
+      "Middle-aged customers (avg age: 41)",
+      "High annual income (avg: $0.1k)",
+      "Low spending score (avg: 15.7/100)",
+      "Avg CustomerID: 20.00",
+      "Avg Annual Income (k$): 80.60",
+      "Avg Spending Score (1-100): 15.70",
+      "Cluster size: 10 records"
+    ]
+  },
+  {
+    "cluster_id": -1,
+    "size": 190,
+    "avg_age": 36.61,
+    "avg_income": 51.51,
+    "avg_spending_score": 49.54,
+    "avg_purchase_frequency": 0.0,
+    "gender_distribution": {
+      "0": 109,
+      "1": 81
+    },
+    "feature_averages": {
+      "CustomerID": 104.7368,
+      "Age": 36.6053,
+      "Annual Income (k$)": 51.5053,
+      "Spending Score (1-100)": 49.5368
+    },
+    "label": "Noise / Outliers",
+    "characteristics": [
+      "Points not assigned to any cluster by DBSCAN"
+    ]
+  }
+]

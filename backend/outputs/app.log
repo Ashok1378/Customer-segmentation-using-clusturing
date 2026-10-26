@@ -1,0 +1,869 @@
+2026-09-30 15:10:11 | INFO     | app.main | ============================================================
+2026-09-30 15:10:11 | INFO     | app.main | Customer Segmentation API starting...
+2026-09-30 15:10:11 | INFO     | app.main | Version: 1.0.0
+2026-09-30 15:10:11 | INFO     | app.main | Preprocessing pipeline loaded from disk.
+2026-09-30 15:10:11 | INFO     | app.main | Trained model loaded from disk.
+2026-09-30 15:10:11 | INFO     | app.main | API ready. Swagger docs: http://localhost:8000/docs
+2026-09-30 15:10:11 | INFO     | app.main | ============================================================
+2026-09-30 15:10:42 | INFO     | app.main | ============================================================
+2026-09-30 15:10:42 | INFO     | app.main | Customer Segmentation API starting...
+2026-09-30 15:10:42 | INFO     | app.main | Version: 1.0.0
+2026-09-30 15:10:42 | INFO     | app.main | Preprocessing pipeline loaded from disk.
+2026-09-30 15:10:42 | INFO     | app.main | Trained model loaded from disk.
+2026-09-30 15:10:42 | INFO     | app.main | API ready. Swagger docs: http://localhost:8000/docs
+2026-09-30 15:10:42 | INFO     | app.main | ============================================================
+2026-09-30 15:11:19 | INFO     | app.main | ============================================================
+2026-09-30 15:11:19 | INFO     | app.main | Customer Segmentation API starting...
+2026-09-30 15:11:19 | INFO     | app.main | Version: 1.0.0
+2026-09-30 15:11:19 | INFO     | app.main | Preprocessing pipeline loaded from disk.
+2026-09-30 15:11:19 | INFO     | app.main | Trained model loaded from disk.
+2026-09-30 15:11:19 | INFO     | app.main | API ready. Swagger docs: http://localhost:8000/docs
+2026-09-30 15:11:19 | INFO     | app.main | ============================================================
+2026-09-30 15:14:05 | INFO     | app.main | ============================================================
+2026-09-30 15:14:05 | INFO     | app.main | Customer Segmentation API starting...
+2026-09-30 15:14:05 | INFO     | app.main | Version: 1.0.0
+2026-09-30 15:14:05 | INFO     | app.main | Preprocessing pipeline loaded from disk.
+2026-09-30 15:14:05 | INFO     | app.main | Trained model loaded from disk.
+2026-09-30 15:14:05 | INFO     | app.main | API ready. Swagger docs: http://localhost:8000/docs
+2026-09-30 15:14:05 | INFO     | app.main | ============================================================
+2026-10-01 10:42:27 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-01 10:42:27 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-01 10:42:27 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-01 10:42:27 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-01 10:42:27 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-01 10:45:02 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv'.
+2026-10-01 10:45:02 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 10:45:02 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 10:45:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 10:45:24 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 10:45:24 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 10:45:24 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 10:45:24 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-01 10:45:24 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (200, 4)
+2026-10-01 10:46:23 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8, 9, 10] ...
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=2  WCSS=406.82  Silhouette=0.4187
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=3  WCSS=240.17  Silhouette=0.4631
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=4  WCSS=142.77  Silhouette=0.5108
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=5  WCSS=96.64  Silhouette=0.5524
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=6  WCSS=72.71  Silhouette=0.5707
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=7  WCSS=58.91  Silhouette=0.5477
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=8  WCSS=48.67  Silhouette=0.5269
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=9  WCSS=42.24  Silhouette=0.4950
+2026-10-01 10:46:23 - app.services.clustering - DEBUG - k=10  WCSS=36.94  Silhouette=0.4622
+2026-10-01 10:46:23 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 10:46:23 - app.services.evaluation - DEBUG - Silhouette method found optimal k=6.
+2026-10-01 10:48:19 - app.services.clustering - INFO - Training KMeans with k=5 ...
+2026-10-01 10:48:19 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 10:48:19 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 10:48:19 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 10:48:19 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 10:48:19 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 10:48:36 - app.services.clustering - INFO - Training Hierarchical clustering with k=5, linkage=ward ...
+2026-10-01 10:48:38 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-01 10:48:38 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 10:48:38 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 10:48:38 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 10:48:38 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 10:48:38 - app.services.clustering - INFO - Training DBSCAN with eps=0.800, min_samples=5 ...
+2026-10-01 10:48:38 - app.services.clustering - INFO - DBSCAN: 3 clusters, 0 noise points.
+2026-10-01 10:48:38 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-01 10:48:38 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 10:48:38 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 10:48:38 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 10:48:38 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 10:48:53 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-01 10:48:53 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-01 10:48:53 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 10:48:53 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-01 10:48:53 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-01 10:49:58 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-01 11:00:58 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-01 11:00:58 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-01 11:00:58 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-01 11:00:58 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-01 11:00:58 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-01 11:02:27 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv'.
+2026-10-01 11:02:27 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 11:02:27 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 11:02:31 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 11:02:31 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 11:02:31 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:02:31 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 11:02:31 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-01 11:02:31 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (200, 4)
+2026-10-01 11:02:33 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8] ...
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=2  WCSS=406.82  Silhouette=0.4187
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=3  WCSS=240.17  Silhouette=0.4631
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=4  WCSS=142.77  Silhouette=0.5108
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=5  WCSS=96.64  Silhouette=0.5524
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=6  WCSS=72.71  Silhouette=0.5707
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=7  WCSS=58.91  Silhouette=0.5477
+2026-10-01 11:02:34 - app.services.clustering - DEBUG - k=8  WCSS=48.67  Silhouette=0.5269
+2026-10-01 11:02:34 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 11:02:34 - app.services.evaluation - DEBUG - Silhouette method found optimal k=6.
+2026-10-01 11:02:36 - app.services.clustering - INFO - Training KMeans with k=5 ...
+2026-10-01 11:02:36 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:02:36 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:02:36 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:02:36 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:02:36 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:02:38 - app.services.clustering - INFO - Training Hierarchical clustering with k=5, linkage=ward ...
+2026-10-01 11:02:38 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-01 11:02:38 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:02:38 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:02:38 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:02:38 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:02:40 - app.services.clustering - INFO - Training DBSCAN with eps=0.800, min_samples=5 ...
+2026-10-01 11:02:40 - app.services.clustering - INFO - DBSCAN: 3 clusters, 0 noise points.
+2026-10-01 11:02:40 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-01 11:02:40 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:02:40 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 11:02:40 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:02:40 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:02:42 - app.services.clustering - INFO - Training KMeans with k=5 ...
+2026-10-01 11:02:42 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:02:42 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:02:42 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:02:42 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:02:42 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:02:46 - app.services.segmentation - INFO - Loaded 5 cluster profiles from disk.
+2026-10-01 11:02:50 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-01 11:02:50 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-01 11:02:50 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:02:50 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-01 11:02:50 - app.services.segmentation - INFO - Loaded 5 cluster profiles from disk.
+2026-10-01 11:03:24 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv'.
+2026-10-01 11:03:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 11:03:24 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 11:03:28 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\sample_customer_data.csv' ...
+2026-10-01 11:03:28 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 6 columns.
+2026-10-01 11:03:28 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:03:28 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 11:03:28 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-01 11:03:28 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (200, 4)
+2026-10-01 11:03:30 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8] ...
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=2  WCSS=406.82  Silhouette=0.4187
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=3  WCSS=240.17  Silhouette=0.4631
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=4  WCSS=142.77  Silhouette=0.5108
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=5  WCSS=96.64  Silhouette=0.5524
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=6  WCSS=72.71  Silhouette=0.5707
+2026-10-01 11:03:30 - app.services.clustering - DEBUG - k=7  WCSS=58.91  Silhouette=0.5477
+2026-10-01 11:03:31 - app.services.clustering - DEBUG - k=8  WCSS=48.67  Silhouette=0.5269
+2026-10-01 11:03:31 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 11:03:31 - app.services.evaluation - DEBUG - Silhouette method found optimal k=6.
+2026-10-01 11:03:33 - app.services.clustering - INFO - Training KMeans with k=5 ...
+2026-10-01 11:03:33 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:03:33 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:03:33 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:03:33 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:03:33 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:03:35 - app.services.clustering - INFO - Training Hierarchical clustering with k=5, linkage=ward ...
+2026-10-01 11:03:35 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-01 11:03:35 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:03:35 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:03:35 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:03:35 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:03:37 - app.services.clustering - INFO - Training DBSCAN with eps=0.800, min_samples=5 ...
+2026-10-01 11:03:37 - app.services.clustering - INFO - DBSCAN: 3 clusters, 0 noise points.
+2026-10-01 11:03:37 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-01 11:03:37 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:03:37 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 11:03:37 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:03:37 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:03:39 - app.services.clustering - INFO - Training KMeans with k=5 ...
+2026-10-01 11:03:39 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:03:39 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-01 11:03:39 - app.services.segmentation - INFO - Generated 5 cluster profiles.
+2026-10-01 11:03:39 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 11:03:39 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 11:03:43 - app.services.segmentation - INFO - Loaded 5 cluster profiles from disk.
+2026-10-01 11:03:47 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-01 11:03:47 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 11:03:47 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-01 11:03:47 - app.services.segmentation - INFO - Loaded 5 cluster profiles from disk.
+2026-10-01 11:29:24 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 11:29:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:29:24 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:29:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:29:24 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:29:34 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:29:34 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:29:34 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:29:34 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)', 'Purchase Frequency']
+2026-10-01 11:29:39 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:29:39 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:29:39 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:29:39 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)', 'Purchase Frequency']
+2026-10-01 11:30:05 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:30:05 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:30:05 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:30:05 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Age', 'Annual Income (k$)']
+2026-10-01 11:30:08 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:30:08 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:30:08 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:30:08 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Age', 'Annual Income (k$)', 'Gender']
+2026-10-01 11:30:12 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:30:12 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:30:12 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:30:12 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Annual Income (k$)', 'Gender', 'Spending Score (1-100)']
+2026-10-01 11:30:16 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 11:30:16 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 11:30:16 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 11:30:16 - app.services.preprocessing - WARNING - Requested features not found in dataset: ['Gender', 'Spending Score (1-100)', 'Purchase Frequency']
+2026-10-01 15:06:29 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-01 15:06:29 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-01 15:06:29 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-01 15:06:29 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-01 15:06:29 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-01 15:06:58 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:06:58 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:06:58 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:09:33 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:09:33 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:09:33 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:09:36 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:09:36 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:09:36 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 15:09:36 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 15:09:36 - app.services.preprocessing - INFO - Preprocessing complete. 1000 records processed using features: ['Battery_Percent', 'Charging_Time_Min', 'Energy_Consumed_kWh', 'Temperature_C', 'Distance_Since_Last_Charge_km'].
+2026-10-01 15:09:36 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (1000, 5)
+2026-10-01 15:09:38 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6] ...
+2026-10-01 15:09:38 - app.services.clustering - DEBUG - k=2  WCSS=3597.86  Silhouette=0.2500
+2026-10-01 15:09:38 - app.services.clustering - DEBUG - k=3  WCSS=3073.63  Silhouette=0.2109
+2026-10-01 15:09:38 - app.services.clustering - DEBUG - k=4  WCSS=2713.28  Silhouette=0.2082
+2026-10-01 15:09:38 - app.services.clustering - DEBUG - k=5  WCSS=2418.99  Silhouette=0.2233
+2026-10-01 15:09:38 - app.services.clustering - DEBUG - k=6  WCSS=2155.17  Silhouette=0.2176
+2026-10-01 15:09:38 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 15:09:38 - app.services.evaluation - DEBUG - Silhouette method found optimal k=2.
+2026-10-01 15:09:40 - app.services.clustering - INFO - Training KMeans with k=4 ...
+2026-10-01 15:09:40 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 15:09:40 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:09:40 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-01 15:09:40 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:09:40 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:10:13 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:10:13 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:10:13 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:10:15 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:10:15 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:10:15 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 15:10:15 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 15:10:15 - app.services.preprocessing - INFO - Preprocessing complete. 1000 records processed using features: ['Battery_Percent', 'Charging_Time_Min', 'Energy_Consumed_kWh', 'Temperature_C', 'Distance_Since_Last_Charge_km'].
+2026-10-01 15:10:15 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (1000, 5)
+2026-10-01 15:10:17 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6] ...
+2026-10-01 15:10:17 - app.services.clustering - DEBUG - k=2  WCSS=3597.86  Silhouette=0.2500
+2026-10-01 15:10:17 - app.services.clustering - DEBUG - k=3  WCSS=3073.63  Silhouette=0.2109
+2026-10-01 15:10:17 - app.services.clustering - DEBUG - k=4  WCSS=2713.28  Silhouette=0.2082
+2026-10-01 15:10:17 - app.services.clustering - DEBUG - k=5  WCSS=2418.99  Silhouette=0.2233
+2026-10-01 15:10:17 - app.services.clustering - DEBUG - k=6  WCSS=2155.17  Silhouette=0.2176
+2026-10-01 15:10:17 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 15:10:17 - app.services.evaluation - DEBUG - Silhouette method found optimal k=2.
+2026-10-01 15:10:19 - app.services.clustering - INFO - Training KMeans with k=4 ...
+2026-10-01 15:10:19 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 15:10:19 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:10:19 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-01 15:10:19 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:10:19 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:10:55 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-01 15:10:55 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-01 15:10:55 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-01 15:10:55 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-01 15:10:55 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-01 15:12:07 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:12:07 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:12:07 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:12:09 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:12:09 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:12:09 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 15:12:09 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 15:12:09 - app.services.preprocessing - INFO - Preprocessing complete. 1000 records processed using features: ['Battery_Percent', 'Charging_Time_Min', 'Energy_Consumed_kWh', 'Temperature_C', 'Distance_Since_Last_Charge_km'].
+2026-10-01 15:12:09 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (1000, 5)
+2026-10-01 15:12:11 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6] ...
+2026-10-01 15:12:11 - app.services.clustering - DEBUG - k=2  WCSS=3597.86  Silhouette=0.2500
+2026-10-01 15:12:12 - app.services.clustering - DEBUG - k=3  WCSS=3073.63  Silhouette=0.2109
+2026-10-01 15:12:12 - app.services.clustering - DEBUG - k=4  WCSS=2713.28  Silhouette=0.2082
+2026-10-01 15:12:12 - app.services.clustering - DEBUG - k=5  WCSS=2418.99  Silhouette=0.2233
+2026-10-01 15:12:12 - app.services.clustering - DEBUG - k=6  WCSS=2155.17  Silhouette=0.2176
+2026-10-01 15:12:12 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 15:12:12 - app.services.evaluation - DEBUG - Silhouette method found optimal k=2.
+2026-10-01 15:12:14 - app.services.clustering - INFO - Training KMeans with k=4 ...
+2026-10-01 15:12:14 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 15:12:14 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:12:14 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-01 15:12:14 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:12:14 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:15:27 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:15:27 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:15:27 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:15:27 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:15:27 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:18:04 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv'.
+2026-10-01 15:18:04 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:18:04 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:18:04 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:18:04 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:20:11 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\EV_Charging_Dataset_1000_Rows.csv' ...
+2026-10-01 15:20:11 - app.services.preprocessing - INFO - Dataset loaded: 1000 rows, 9 columns.
+2026-10-01 15:20:12 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-01 15:20:12 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-01 15:20:12 - app.services.preprocessing - INFO - Preprocessing complete. 1000 records processed using features: ['Battery_Percent', 'Charging_Time_Min', 'Energy_Consumed_kWh', 'Temperature_C', 'Distance_Since_Last_Charge_km'].
+2026-10-01 15:20:12 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (1000, 5)
+2026-10-01 15:24:02 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8, 9, 10] ...
+2026-10-01 15:24:02 - app.services.clustering - DEBUG - k=2  WCSS=3597.86  Silhouette=0.2500
+2026-10-01 15:24:02 - app.services.clustering - DEBUG - k=3  WCSS=3073.63  Silhouette=0.2109
+2026-10-01 15:24:02 - app.services.clustering - DEBUG - k=4  WCSS=2713.28  Silhouette=0.2082
+2026-10-01 15:24:02 - app.services.clustering - DEBUG - k=5  WCSS=2418.99  Silhouette=0.2233
+2026-10-01 15:24:02 - app.services.clustering - DEBUG - k=6  WCSS=2155.17  Silhouette=0.2176
+2026-10-01 15:24:03 - app.services.clustering - DEBUG - k=7  WCSS=2008.58  Silhouette=0.2137
+2026-10-01 15:24:03 - app.services.clustering - DEBUG - k=8  WCSS=1888.73  Silhouette=0.2062
+2026-10-01 15:24:03 - app.services.clustering - DEBUG - k=9  WCSS=1781.59  Silhouette=0.2152
+2026-10-01 15:24:03 - app.services.clustering - DEBUG - k=10  WCSS=1678.87  Silhouette=0.2034
+2026-10-01 15:24:03 - app.services.evaluation - DEBUG - Elbow method found optimal k=3.
+2026-10-01 15:24:03 - app.services.evaluation - DEBUG - Silhouette method found optimal k=2.
+2026-10-01 15:24:24 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-01 15:24:24 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 15:24:24 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:24:24 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 15:24:24 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:24:24 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:25:19 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-01 15:25:20 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-01 15:25:20 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:25:20 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 15:25:20 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:25:20 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:26:17 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-01 15:26:53 - app.services.clustering - INFO - Training Hierarchical clustering with k=3, linkage=complete ...
+2026-10-01 15:26:53 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-01 15:26:53 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:26:53 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-01 15:26:53 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:26:53 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:27:10 - app.services.clustering - INFO - Training DBSCAN with eps=1.000, min_samples=5 ...
+2026-10-01 15:27:10 - app.services.clustering - INFO - DBSCAN: 1 clusters, 70 noise points.
+2026-10-01 15:27:10 - app.services.evaluation - DEBUG - Silhouette skipped: fewer than 2 valid clusters.
+2026-10-01 15:27:10 - app.services.evaluation - DEBUG - Davies-Bouldin skipped: fewer than 2 valid clusters.
+2026-10-01 15:27:10 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-01 15:27:10 - app.services.clustering - DEBUG - PCA produced 1000 2-D points.
+2026-10-01 15:27:10 - app.services.segmentation - INFO - Generated 2 cluster profiles.
+2026-10-01 15:27:10 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-01 15:27:10 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-01 15:27:22 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-01 15:27:41 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-01 15:27:41 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-01 15:40:11 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-01 15:40:11 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-01 15:40:11 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-01 15:40:11 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-01 15:40:11 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 11:40:08 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 11:40:08 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 11:40:08 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 11:40:08 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 11:40:08 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 11:40:08 - app.database - INFO - Database initialized successfully at 'sqlite:///C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\customer_segmentation.db'.
+2026-10-06 11:42:36 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv'.
+2026-10-06 11:42:36 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 11:42:36 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 11:42:36 - app.services.db_service - INFO - Saved dataset 'Customer_Segmentation_Dataset.csv' (ID: 1) and 100 records to DB.
+2026-10-06 11:42:36 - app.api.routes_dataset - INFO - Dataset persisted to DB with ID: 1
+2026-10-06 11:42:36 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 11:42:36 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 11:42:48 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 11:42:48 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 11:42:48 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-06 11:42:48 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-06 11:42:48 - app.services.preprocessing - INFO - Preprocessing complete. 100 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-06 11:42:48 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (100, 4)
+2026-10-06 11:43:12 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8, 9, 10] ...
+2026-10-06 11:43:12 - app.services.clustering - DEBUG - k=2  WCSS=218.01  Silhouette=0.4195
+2026-10-06 11:43:12 - app.services.clustering - DEBUG - k=3  WCSS=138.92  Silhouette=0.4886
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=4  WCSS=64.80  Silhouette=0.6234
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=5  WCSS=26.94  Silhouette=0.6801
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=6  WCSS=23.02  Silhouette=0.6440
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=7  WCSS=19.43  Silhouette=0.6063
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=8  WCSS=16.44  Silhouette=0.5792
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=9  WCSS=13.66  Silhouette=0.5287
+2026-10-06 11:43:13 - app.services.clustering - DEBUG - k=10  WCSS=11.49  Silhouette=0.4722
+2026-10-06 11:43:13 - app.services.evaluation - DEBUG - Elbow method found optimal k=4.
+2026-10-06 11:43:13 - app.services.evaluation - DEBUG - Silhouette method found optimal k=5.
+2026-10-06 11:43:22 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-06 11:43:22 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-06 11:43:22 - app.services.clustering - DEBUG - PCA produced 100 2-D points.
+2026-10-06 11:43:22 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-06 11:43:22 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-06 11:43:22 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-06 11:43:22 - app.services.db_service - INFO - Saved clustering run ID 1 (kmeans) with 3 profiles to DB.
+2026-10-06 11:43:22 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 1
+2026-10-06 11:43:43 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-06 11:43:43 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-06 11:49:32 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-06 11:54:07 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 11:54:07 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 11:54:07 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 11:54:07 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 11:54:07 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 11:54:07 - app.database - INFO - Database initialized successfully at 'sqlite:///C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\customer_segmentation.db'.
+2026-10-06 11:59:38 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-06 11:59:38 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency']
+2026-10-06 11:59:38 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-06 11:59:38 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-06 11:59:38 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-06 11:59:38 - app.services.db_service - INFO - Saved prediction ID 1 (Cluster 0: 'High Value Customers') to DB.
+2026-10-06 12:00:58 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-06 12:01:01 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:01:01 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:01:01 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:01:01 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:01:01 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:01:01 - app.database - INFO - Database initialized successfully at 'sqlite:///C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\customer_segmentation.db'.
+2026-10-06 12:01:01 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-06 12:02:40 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:02:40 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:02:40 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:02:40 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:02:40 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:02:40 - app.database - INFO - Database initialized successfully at 'sqlite:///C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\customer_segmentation.db'.
+2026-10-06 12:05:33 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-06 12:05:36 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:05:36 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:05:36 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:05:36 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:05:36 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:05:36 - app.database - INFO - Database initialized successfully at 'sqlite:///C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\customer_segmentation.db'.
+2026-10-06 12:07:44 - app.database - INFO - Successfully connected to primary database: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:07:44 - app.database - INFO - Database initialized successfully at 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 12:08:48 - app.database - INFO - Successfully connected to primary database: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:08:48 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:08:48 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:08:48 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:08:48 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:08:48 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:08:48 - app.database - INFO - Database initialized successfully at 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 12:13:27 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-06 12:13:29 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:13:29 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:13:29 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:13:29 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:13:29 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:13:29 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:13:29 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 12:15:07 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:15:07 - app.database - INFO - Auto-discovered MySQL server on port 3306 with user 'root'.
+2026-10-06 12:15:07 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:15:07 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 12:18:04 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:18:04 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-06 12:18:04 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-06 12:18:04 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-06 12:18:04 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-06 12:18:04 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-06 12:18:04 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 12:48:45 - app.database - INFO - Auto-discovered MySQL server on port 3306 with user 'root'.
+2026-10-06 12:48:45 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 12:48:45 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 13:11:43 - app.database - INFO - Auto-discovered MySQL server on port 3306 with user 'root'.
+2026-10-06 13:11:43 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-06 13:11:43 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-06 14:01:53 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv'.
+2026-10-06 14:01:53 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 14:01:53 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 14:01:53 - app.services.db_service - INFO - Saved dataset 'Customer_Segmentation_Dataset.csv' (ID: 2) and 100 records to DB.
+2026-10-06 14:01:53 - app.api.routes_dataset - INFO - Dataset persisted to DB with ID: 2
+2026-10-06 14:01:53 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 14:01:53 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 14:02:52 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-06 14:02:52 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-06 14:02:52 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-06 14:02:52 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-06 14:02:52 - app.services.preprocessing - INFO - Preprocessing complete. 100 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-06 14:02:52 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (100, 4)
+2026-10-06 14:04:05 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-06 14:04:05 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-06 14:04:05 - app.services.clustering - DEBUG - PCA produced 100 2-D points.
+2026-10-06 14:04:05 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-06 14:04:05 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-06 14:04:05 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-06 14:04:05 - app.services.db_service - INFO - Saved clustering run ID 2 (kmeans) with 3 profiles to DB.
+2026-10-06 14:04:05 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 2
+2026-10-07 15:56:24 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-07 15:56:24 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-07 15:56:24 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-07 15:56:24 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-07 15:56:24 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-07 15:56:24 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-07 15:56:24 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-10 06:58:36 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-10 06:58:36 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-10 06:58:36 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-10 06:58:36 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-10 06:58:36 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-10 06:58:36 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-10 06:58:36 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-10 07:02:29 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-10 07:06:05 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ac9968210ea451322188e45, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-10 07:06:19 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-10 07:06:22 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ac996933dc5b956d09d55b2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-10 07:06:22 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-10 07:06:22 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-10 07:06:22 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-10 07:06:22 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-10 07:06:22 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-10 07:06:22 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-10 07:07:33 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-10 07:07:37 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-10 07:08:19 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-10 07:08:22 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ac9970c3d024c54e9ef9832, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-10 07:08:22 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-10 07:08:22 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-10 07:08:22 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-10 07:08:22 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-10 07:08:22 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-10 07:08:22 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-10 10:22:51 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv'.
+2026-10-10 10:22:51 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-10 10:22:51 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-10 10:22:51 - app.services.db_service - INFO - Saved dataset 'Customer_Segmentation_Dataset.csv' (ID: 3) and 100 records to DB.
+2026-10-10 10:22:51 - app.api.routes_dataset - INFO - Dataset persisted to DB with ID: 3
+2026-10-10 10:22:51 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-10 10:22:51 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-10 10:27:11 - app.main - INFO - Customer Segmentation API is shutting down.
+2026-10-10 10:27:16 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 22:59:08 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 22:59:12 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ade3c662fb3c79e67c884bb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-25 22:59:34 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 22:59:36 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ade3c7ef3d34d5af0bd61cb, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-25 22:59:37 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-25 22:59:37 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-25 22:59:37 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-25 22:59:37 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-25 22:59:37 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-25 22:59:37 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' ...
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Dataset loaded: 100 rows, 6 columns.
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-25 23:00:10 - app.services.preprocessing - INFO - Preprocessing complete. 100 records processed using features: ['Age', 'AnnualIncome', 'SpendingScore', 'PurchaseFrequency'].
+2026-10-25 23:00:10 - app.api.routes_clustering - INFO - Auto-preprocessed dataset 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Customer_Segmentation_Dataset.csv' with 4 features
+2026-10-25 23:00:10 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-25 23:00:10 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:00:10 - app.services.clustering - INFO - Training Hierarchical clustering with k=3, linkage=ward ...
+2026-10-25 23:00:16 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-25 23:00:16 - app.services.clustering - INFO - Training DBSCAN with eps=0.500, min_samples=5 ...
+2026-10-25 23:00:16 - app.services.clustering - INFO - DBSCAN: 5 clusters, 5 noise points.
+2026-10-25 23:00:16 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-25 23:00:16 - app.services.clustering - DEBUG - PCA produced 100 2-D points.
+2026-10-25 23:00:16 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-25 23:00:16 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:00:16 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:00:16 - app.services.db_service - INFO - Saved clustering run ID 3 (kmeans) with 3 profiles to DB.
+2026-10-25 23:00:16 - app.services.db_service - INFO - Saved clustering run ID 4 (hierarchical) with 0 profiles to DB.
+2026-10-25 23:00:16 - app.services.db_service - INFO - Saved clustering run ID 5 (dbscan) with 0 profiles to DB.
+2026-10-25 23:01:18 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv'.
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:01:18 - app.services.db_service - INFO - Saved dataset 'Mall_Customers_synthetic.csv' (ID: 4) and 200 records to DB.
+2026-10-25 23:01:18 - app.api.routes_dataset - INFO - Dataset persisted to DB with ID: 4
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-25 23:01:18 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['CustomerID', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)'].
+2026-10-25 23:01:18 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (200, 4)
+2026-10-25 23:01:35 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:01:35 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:02:37 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:03:04 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['CustomerID', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:03:04 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:03:04 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:03:04 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:03:04 - app.services.db_service - INFO - Saved prediction ID 2 (Cluster 1: 'Budget Customers') to DB.
+2026-10-25 23:05:25 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:05:25 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:05:25 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:41 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:41 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:41 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:55 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:55 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:06:55 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:07:44 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 23:07:47 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ade3e685d4e23de16de1f25, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-25 23:07:47 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-25 23:07:47 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-25 23:07:47 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-25 23:07:47 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-25 23:07:47 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-25 23:07:47 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-25 23:08:02 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:08:12 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['CustomerID', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:08:12 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:08:12 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:08:12 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:08:12 - app.services.db_service - INFO - Saved prediction ID 3 (Cluster 1: 'Budget Customers') to DB.
+2026-10-25 23:11:21 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:11:21 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-25 23:11:24 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)'].
+2026-10-25 23:11:24 - app.api.routes_clustering - INFO - Auto-preprocessed dataset 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' with 3 features
+2026-10-25 23:11:24 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-25 23:11:25 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:11:25 - app.services.clustering - INFO - Training Hierarchical clustering with k=3, linkage=ward ...
+2026-10-25 23:11:25 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-25 23:11:25 - app.services.clustering - INFO - Training DBSCAN with eps=0.500, min_samples=5 ...
+2026-10-25 23:11:25 - app.services.clustering - INFO - DBSCAN: 3 clusters, 16 noise points.
+2026-10-25 23:11:25 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-25 23:11:25 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:11:25 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-25 23:11:25 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:11:25 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:11:25 - app.services.db_service - INFO - Saved clustering run ID 6 (kmeans) with 3 profiles to DB.
+2026-10-25 23:11:25 - app.services.db_service - INFO - Saved clustering run ID 7 (hierarchical) with 0 profiles to DB.
+2026-10-25 23:11:25 - app.services.db_service - INFO - Saved clustering run ID 8 (dbscan) with 0 profiles to DB.
+2026-10-25 23:11:26 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:11:26 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:13:26 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:13:26 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:13:33 - app.services.clustering - INFO - Training KMeans with k=4 ...
+2026-10-25 23:13:33 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:13:33 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:13:33 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-25 23:13:33 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:13:33 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:13:33 - app.services.db_service - INFO - Saved clustering run ID 9 (kmeans) with 4 profiles to DB.
+2026-10-25 23:13:33 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 9
+2026-10-25 23:13:37 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:13:37 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:13:45 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:13:45 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:13:57 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:13:57 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:16:50 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:16:50 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:17:42 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 23:17:44 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ade40bed0791f1ad79f6591, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-25 23:17:44 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-25 23:17:44 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-25 23:17:44 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-25 23:17:44 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-25 23:17:44 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-25 23:17:44 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-25 23:18:32 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:18:32 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:18:32 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:18:32 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:18:32 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:18:32 - app.services.db_service - INFO - Saved prediction ID 4 (Cluster 3: 'Segment 4') to DB.
+2026-10-25 23:19:42 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:19:42 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:19:42 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:19:42 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:19:42 - app.services.segmentation - INFO - Loaded 4 cluster profiles from disk.
+2026-10-25 23:19:42 - app.services.db_service - INFO - Saved prediction ID 5 (Cluster 1: 'Segment 2') to DB.
+2026-10-25 23:21:34 - app.database - INFO - Active database set to: mysql+pymysql://root:root@localhost:3306/customer_segmentation
+2026-10-25 23:21:36 - app.services.mongo_service - WARNING - MongoDB connection failed for mongodb://localhost:27017: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 2.5s, Topology Description: <TopologyDescription id: 6ade41a66af34d1555536d52, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-10-25 23:21:36 - app.main - INFO - 🚀 Customer Segmentation API v1.0.0 is starting up ...
+2026-10-25 23:21:36 - app.main - INFO - CORS origins: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'http://127.0.0.1:3000']
+2026-10-25 23:21:36 - app.main - INFO - Upload dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads
+2026-10-25 23:21:36 - app.main - INFO - Models dir:  C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models
+2026-10-25 23:21:36 - app.main - INFO - Outputs dir: C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs
+2026-10-25 23:21:36 - app.database - INFO - Database tables initialized successfully on 'mysql+pymysql://root:root@localhost:3306/customer_segmentation'.
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)'].
+2026-10-25 23:22:06 - app.api.routes_clustering - INFO - Auto-preprocessed dataset 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' with 3 features
+2026-10-25 23:22:06 - app.services.clustering - INFO - Training KMeans with k=3 ...
+2026-10-25 23:22:06 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:22:06 - app.services.clustering - INFO - Training Hierarchical clustering with k=3, linkage=ward ...
+2026-10-25 23:22:06 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-25 23:22:06 - app.services.clustering - INFO - Training DBSCAN with eps=0.500, min_samples=5 ...
+2026-10-25 23:22:06 - app.services.clustering - INFO - DBSCAN: 3 clusters, 16 noise points.
+2026-10-25 23:22:06 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-25 23:22:06 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:22:06 - app.services.segmentation - INFO - Generated 3 cluster profiles.
+2026-10-25 23:22:06 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:22:06 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:22:06 - app.services.db_service - INFO - Saved clustering run ID 10 (kmeans) with 3 profiles to DB.
+2026-10-25 23:22:06 - app.services.db_service - INFO - Saved clustering run ID 11 (hierarchical) with 0 profiles to DB.
+2026-10-25 23:22:06 - app.services.db_service - INFO - Saved clustering run ID 12 (dbscan) with 0 profiles to DB.
+2026-10-25 23:23:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:24:22 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:24:22 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:24:22 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:24:22 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:24:22 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:24:22 - app.services.db_service - INFO - Saved prediction ID 6 (Cluster 1: 'Frequent Buyers') to DB.
+2026-10-25 23:25:10 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:25:10 - app.services.preprocessing - INFO - Preprocessor loaded. Features: ['Age', 'Annual Income (k$)', 'Spending Score (1-100)']
+2026-10-25 23:25:10 - app.services.clustering - INFO - Model 'kmeans' loaded from C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:25:10 - app.api.routes_prediction - INFO - Using trained 'kmeans' model for prediction.
+2026-10-25 23:25:10 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:25:10 - app.services.db_service - INFO - Saved prediction ID 7 (Cluster 2: 'Conservative Spenders') to DB.
+2026-10-25 23:26:01 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:26:01 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:26:05 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:26:05 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:26:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:26:06 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:27:37 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:27:37 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:27:38 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:27:38 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:28:31 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:28:31 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:28:31 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:28:31 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:30 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:30 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:45 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:46 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:46 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:46 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:46 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:47 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:47 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:47 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:47 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:55 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:35:55 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:18 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:18 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:18 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:18 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:24 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:24 - app.services.segmentation - INFO - Loaded 3 cluster profiles from disk.
+2026-10-25 23:38:30 - app.api.routes_dataset - INFO - File uploaded and saved to 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv'.
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:38:30 - app.services.db_service - INFO - Saved dataset 'Mall_Customers_synthetic.csv' (ID: 5) and 200 records to DB.
+2026-10-25 23:38:30 - app.api.routes_dataset - INFO - Dataset persisted to DB with ID: 5
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Loading dataset from 'C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\uploads\Mall_Customers_synthetic.csv' ...
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Dataset loaded: 200 rows, 5 columns.
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Imputed missing values: {}
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Preprocessor saved (scaler, encoders, metadata).
+2026-10-25 23:38:30 - app.services.preprocessing - INFO - Preprocessing complete. 200 records processed using features: ['CustomerID', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)'].
+2026-10-25 23:38:30 - app.api.routes_clustering - INFO - Preprocessing complete. X_scaled shape: (200, 4)
+2026-10-25 23:38:35 - app.services.clustering - INFO - Analyzing optimal k over range [2, 3, 4, 5, 6, 7, 8, 9, 10] ...
+2026-10-25 23:38:35 - app.services.clustering - DEBUG - k=2  WCSS=549.33  Silhouette=0.2892
+2026-10-25 23:38:35 - app.services.clustering - DEBUG - k=3  WCSS=438.38  Silhouette=0.2914
+2026-10-25 23:38:35 - app.services.clustering - DEBUG - k=4  WCSS=340.47  Silhouette=0.3250
+2026-10-25 23:38:35 - app.services.clustering - DEBUG - k=5  WCSS=281.00  Silhouette=0.3351
+2026-10-25 23:38:36 - app.services.clustering - DEBUG - k=6  WCSS=242.22  Silhouette=0.3441
+2026-10-25 23:38:36 - app.services.clustering - DEBUG - k=7  WCSS=221.09  Silhouette=0.3148
+2026-10-25 23:38:36 - app.services.clustering - DEBUG - k=8  WCSS=197.86  Silhouette=0.3138
+2026-10-25 23:38:36 - app.services.clustering - DEBUG - k=9  WCSS=175.96  Silhouette=0.3221
+2026-10-25 23:38:36 - app.services.clustering - DEBUG - k=10  WCSS=161.65  Silhouette=0.3198
+2026-10-25 23:38:36 - app.services.evaluation - DEBUG - Elbow method found optimal k=4.
+2026-10-25 23:38:36 - app.services.evaluation - DEBUG - Silhouette method found optimal k=6.
+2026-10-25 23:38:43 - app.services.clustering - INFO - Training Hierarchical clustering with k=4, linkage=ward ...
+2026-10-25 23:38:43 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-25 23:38:43 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:38:43 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-25 23:38:43 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:38:43 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:38:43 - app.services.db_service - INFO - Saved clustering run ID 13 (hierarchical) with 4 profiles to DB.
+2026-10-25 23:38:43 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 13
+2026-10-25 23:38:47 - app.services.clustering - INFO - Training DBSCAN with eps=0.500, min_samples=5 ...
+2026-10-25 23:38:47 - app.services.clustering - INFO - DBSCAN: 1 clusters, 190 noise points.
+2026-10-25 23:38:47 - app.services.evaluation - DEBUG - Silhouette skipped: fewer than 2 valid clusters.
+2026-10-25 23:38:47 - app.services.evaluation - DEBUG - Davies-Bouldin skipped: fewer than 2 valid clusters.
+2026-10-25 23:38:47 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-25 23:38:47 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:38:47 - app.services.segmentation - INFO - Generated 2 cluster profiles.
+2026-10-25 23:38:47 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:38:47 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:38:47 - app.services.db_service - INFO - Saved clustering run ID 14 (dbscan) with 2 profiles to DB.
+2026-10-25 23:38:47 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 14
+2026-10-25 23:38:52 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:38:52 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:38:56 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:38:56 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:08 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:08 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:08 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:08 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:17 - app.services.clustering - INFO - Training KMeans with k=4 ...
+2026-10-25 23:39:17 - app.services.clustering - INFO - Model 'kmeans' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\kmeans_model.pkl.
+2026-10-25 23:39:17 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:39:17 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-25 23:39:17 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:39:17 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:39:17 - app.services.db_service - INFO - Saved clustering run ID 15 (kmeans) with 4 profiles to DB.
+2026-10-25 23:39:17 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 15
+2026-10-25 23:39:21 - app.services.clustering - INFO - Training Hierarchical clustering with k=4, linkage=ward ...
+2026-10-25 23:39:21 - app.services.clustering - INFO - Model 'hierarchical' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\hierarchical_model.pkl.
+2026-10-25 23:39:21 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:39:21 - app.services.segmentation - INFO - Generated 4 cluster profiles.
+2026-10-25 23:39:21 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:39:21 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:39:21 - app.services.db_service - INFO - Saved clustering run ID 16 (hierarchical) with 4 profiles to DB.
+2026-10-25 23:39:21 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 16
+2026-10-25 23:39:24 - app.services.clustering - INFO - Training DBSCAN with eps=0.500, min_samples=5 ...
+2026-10-25 23:39:24 - app.services.clustering - INFO - DBSCAN: 1 clusters, 190 noise points.
+2026-10-25 23:39:24 - app.services.evaluation - DEBUG - Silhouette skipped: fewer than 2 valid clusters.
+2026-10-25 23:39:24 - app.services.evaluation - DEBUG - Davies-Bouldin skipped: fewer than 2 valid clusters.
+2026-10-25 23:39:24 - app.services.clustering - INFO - Model 'dbscan' saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\dbscan_model.pkl.
+2026-10-25 23:39:24 - app.services.clustering - DEBUG - PCA produced 200 2-D points.
+2026-10-25 23:39:24 - app.services.segmentation - INFO - Generated 2 cluster profiles.
+2026-10-25 23:39:24 - app.services.segmentation - INFO - Cluster profiles saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\models\cluster_profiles.json.
+2026-10-25 23:39:24 - app.services.preprocessing - INFO - Clustered CSV saved to C:\Users\HP\Downloads\cinereview (2)\Customer_Segmentation_Clustering\backend\outputs\clustered_data.csv.
+2026-10-25 23:39:24 - app.services.db_service - INFO - Saved clustering run ID 17 (dbscan) with 2 profiles to DB.
+2026-10-25 23:39:24 - app.api.routes_clustering - INFO - Clustering run saved to database with ID: 17
+2026-10-25 23:39:30 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:30 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:38 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:39 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:45 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:46 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:46 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:39:46 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:40:01 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
+2026-10-25 23:40:01 - app.services.segmentation - INFO - Loaded 2 cluster profiles from disk.
