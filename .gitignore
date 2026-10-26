@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Backend specific
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models/*.joblib
+backend/models/*.json
+backend/outputs/*.log
+backend/outputs/*.csv
+
+# Environment
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
